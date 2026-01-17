@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(28, 28, 28);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 100vh;
+}
+.counter {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: #fff;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 100px;
+}
+button {
+  background-color: rgb(55, 55, 55);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
