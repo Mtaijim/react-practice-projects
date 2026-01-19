@@ -1,0 +1,11 @@
+.wrapper button {
+  width: 30%;
+  border-radius: 4px;
+  border: none;
+  font-weight: bold;
+}
+
+.container {
+  text-transform: uppercase;
+  text-align: center;
+}
