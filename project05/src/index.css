@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star-Rating {
+  display: flex;
+  margin-top: 100px;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.active {
+  color: yellow;
+}
+
+.inactive {
+  color: black;
+}
