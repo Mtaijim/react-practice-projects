@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+.inner-container {
+  text-align: center;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.inner-container img {
+  height: 400px;
+  border-radius: 20px;
+}
+.inner-container button {
+  height: 20px;
+}
