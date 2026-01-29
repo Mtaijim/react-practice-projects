@@ -1,0 +1,26 @@
+:root {
+  --background: #ffffff;
+  --text-primary: #000000;
+  --btn-bg: #000000;
+  --btn-text: #ffffff;
+}
+[data-theme="dark"] {
+  --background: #000000;
+  --text-primary: #ffffff;
+  --btn-bg: #ffffff;
+  --btn-text: #000000;
+}
+.light-dark-mode {
+  background-color: var(--background);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 0.5s;
+  align-items: center;
+}
+.light-dark-mode p {
+  color: var(--text-primary);
+  display: flex;
+  font-size: large;
+}
