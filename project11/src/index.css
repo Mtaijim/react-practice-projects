@@ -1,0 +1,31 @@
+.top-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.scroll-progress-tracker {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  height: 10px;
+  width: 100%;
+  background-color: #e5e7eb;
+}
+.current-progress-tracker {
+  height: 10px;
+  background-color: blue;
+}
+.product-container {
+  margin-top: 4rem;
+}
+.heading {
+  position: sticky;
+  top: 10px;
+  background: rgb(8, 8, 8);
+  color: #e5e7eb;
+  width: 100%;
+}
