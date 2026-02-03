@@ -1,0 +1,61 @@
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+}
+.input-container {
+  display: flex;
+  gap: 6px;
+}
+.input-container input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.input-container button {
+  padding: 10px 20px;
+  border: 0.1px solid black;
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+  background-color: #000;
+  transition: all 0.2s ease;
+}
+.input-container button:hover {
+  background-color: #252525;
+}
+.user-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.avatar img {
+  width: 200px;
+  margin: 20px;
+  border: 4px solid black;
+  border-radius: 50%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.userName {
+  text-align: center;
+}
+.userName a,
+p {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+.followers {
+  display: flex;
+  gap: 6px;
+}
